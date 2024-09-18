@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(223, 239, 252);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:aliceblue;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+}
+li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+li:hover{
+    color: blueviolet;
+}
+.menu-container{
+    display: flex;
+    gap: 10px;
+}
+.banner-container{
+    display: flex;
+    padding: 20px 0px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    margin: auto;
+    gap: 20px;;
+}
+.banner-left{
+    width: 300px;
+}
+.h1banner{
+    font-weight: 700;
+    font-size: 30px;
+}
+.banner-right{
+    width: 500px;
+}
+.banner-img{
+    width: 500px;
+    border-radius: 5px;
+}
+.btn{
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.hire-btn{
+    background-color : rgb(41, 41, 56);
+    font-weight: 600;
+    
+}
+.project-btn{
+    background-color: rgb(25, 94, 94);
+    font-weight: 600;
+}
+.service-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.service-card{
+    width: 300px;
+    padding: 20px;
+    line-height: 1.5;
+    box-shadow: 2px 2px 2px 2px silver;
+}
+.service-img{
+    width: 250px;
+    border-radius: 4px;
+    height: 200px;
+}
+.fa-circle-info{
+    width: 200px;
+}
+.service-btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(25, 94, 94);
+    border-radius: 4px;
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: 600;
+}
+.contact-container{
+    width: 250px;
+    margin: 10px 250px;
+}
+.text-box{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.contact-btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(25, 94, 94);
+    border-radius: 4px;
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px){
+    body{
+        background-color: burlywood;
+    }
+    .service-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media only screen and (min-width: 767px ) and (max-width: 768px) {
+    body{
+        background-color: darkgrey;
+    }
+}

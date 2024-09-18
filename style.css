@@ -1,0 +1,112 @@
+#header{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    
+    background-color: rgb(134, 170, 170);
+    
+}
+li{
+    display: inline;
+    padding-left: 10px;
+}
+li a{
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 14px;
+}
+.google-font{
+    display: inline;
+}
+#navbar{
+    width: 100%;
+    background-color: rgb(215, 238, 238);
+    height: 30px;
+    padding: 5px 5px;
+    position: fixed;
+    border: 1px solid black;
+}
+a{
+    padding-left: 10px;
+}
+.boxallcontainer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    height: 40vh;
+    align-items: center;
+    border: 1px solid goldenrod;
+    background-image: url('NEuip.jpg'), linear-gradient(45deg, red, green);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button{
+    width: 300px;
+    padding: 10px;
+    height: 100px;
+    background: linear-gradient(45deg, red, green);
+}
+.boxall{
+    height: 150px;
+    width: 300px;
+    margin-top: 10px;
+    padding-top: 50px;   
+}
+.box1{
+    border: 1px solid rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: green;
+    position: relative;
+    
+}
+.red{
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+.box2{
+    border: 1px solid red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box3{
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    height: 300px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.foot1{
+    border: 1px solid firebrick;
+    width: 300px;
+    padding: 10px;
+}
+.foot2{
+    border:1px solid forestgreen;
+    width: 300px;
+    padding: 10px;
+}
+.foot3{
+    padding: 10px;
+    width: 300px;
+    border:1px solid greenyellow;
+}
+.foot4{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid hotpink;
+}
